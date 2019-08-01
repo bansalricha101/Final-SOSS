@@ -1,0 +1,27 @@
+
+     html {
+         scroll-behavior: smooth;
+        }
+  
+  
+    body {
+        position: relative; 
+    }
+    .affix {
+        top:0;
+        width: 100%;
+        z-index: 9999 !important;
+    }
+    .navbar .navbar-inverse{
+        
+        background-color:#480607 !important;
+    }
+  
+    .affix ~ .container-fluid {
+       position: relative;
+       top: 50px;
+    }
+    #grad1 {
+        font-size:1.4rem;
+         background-image: linear-gradient(#480607, #772a2b); /* Standard syntax (must be last) */
+      }
