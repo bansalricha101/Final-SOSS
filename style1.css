@@ -23,5 +23,126 @@
     }
     #grad1 {
         font-size:1.4rem;
-         background-image: linear-gradient(#480607, #772a2b); /* Standard syntax (must be last) */
+         background-image: linear-gradient(#480607, #813738); 
       }
+      .card-news-top{
+        background: linear-gradient(#11883e, #093312); 
+          font-size: 2rem;
+          border-radius: 7px;
+          color:white;
+          text-shadow: 0 0 3px white, 0 0 5px ;
+          text-align: center;
+          -webkit-animation: glow 1s ease-in-out infinite alternate;
+          -moz-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+      }
+      .card-body{
+          border-top: 0px !important;
+          border:grey solid 1px;
+          border-radius: 7px;
+          box-shadow:5px 5px 5px rgba(68,68,68,0.6);
+          height:410px;
+          margin-top: 10px;
+      }
+      @media screen and (max-width: 700px) {
+     .card-body{
+        border:grey solid 1px;
+        border-radius: 7px;
+        box-shadow:10px 5px 6px rgba(68,68,68,0.6);
+        height:220px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+      }
+        .card-news a {
+            font-weight:bold; font-size:15px; font-family:Roboto;
+            color: #480607;
+            padding: 2px;
+        }
+
+        /* carousel */
+
+       
+        #myCarousel{
+          box-shadow:10px 5px 10px rgba(68,68,68,0.6);
+           }
+                   
+        .carousel-caption h4{
+            color:black;
+            font-size: 5px;
+        }
+        @media screen and (max-width: 700px) {
+            .carousel-inner {
+              font-size: 1.7rem;
+       
+            }
+           
+          }
+          .item{
+              height: 430px;
+              font-size: 5px;
+              color: black;
+          }
+          @media screen and (max-width: 700px) {
+            .item{
+                height: 300px;
+                font-size: 5px;
+                color: black;
+            }
+
+          }
+          /*End carousel */
+        
+          .parallaxfac{
+            /* The image used */
+               background-image: url("images/bk.jpg");
+            /* Set a specific height */
+              height: 150px;
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .hodpic img{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+                height: 80%;
+                width:80%; 
+              box-shadow: 10px 5px 10px rgba(68,68,68,0.6);
+
+            }
+
+            /* card-section */
+
+            /* #bg-img{
+              background-image: url("images/background1.jpg");
+              opacity: 0.8;
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            } */
+
+            .card{
+              background-image: linear-gradient(#941f29,rgb(34, 17, 17)); 
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              box-shadow: 10px 10px 10px rgba(68,68,68,0.6);
+              border-radius: 10px;
+            }
+            .card-content{
+              font-size: 90px;
+            }
+            .card-footer{
+              font-size: 80px;
+              color: white;
+            }
+            
+            .fa-style{
+              font-size: 50px;
+              color: white;
+            }
