@@ -173,10 +173,11 @@
             
             .card-footer2  a {
               color: black !important;
-              margin-left: 3px;              
+                           
             }
             .card-footer2{
               height: fit-content;
+              padding: 8px;
             }
 
             /* Footer */
@@ -200,7 +201,8 @@
            direction: column;
           align-content: space-between;
            color: white;
-           justify-content: center;
+           justify-content: space-around;
+           
 
          }
          .mb-0{
@@ -209,13 +211,19 @@
          }
 
             .footer-img{
-              height: 200px;
+              height: 180px;
               margin-bottom: 5px;
+              border: #000 2px solid;
+              box-shadow: 15px 10px 15px rgba(26, 24, 24, 0.6);
+              border-radius: 2px;
             
             }
             .footer-content{
               color:white;
               margin-top: 5px;
+            }
+            .footer-text{
+              margin-left: 25px;
             }
             .footer-content a{
               color:white;
